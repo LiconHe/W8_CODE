@@ -405,7 +405,8 @@ def main(_):
 
     # Create global_step
     with tf.device(deploy_config.variables_device()):
-      global_step = slim.create_global_step()
+      #global_step = slim.create_global_step()
+      global_step = tf.train.create_global_step()
 
     ######################
     # Select the dataset #
