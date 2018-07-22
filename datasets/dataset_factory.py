@@ -22,6 +22,8 @@ from datasets import cifar10
 from datasets import flowers
 from datasets import imagenet
 from datasets import mnist
+#add by Licon
+from datasets import quiz
 
 datasets_map = {
     'cifar10': cifar10,
