@@ -28,6 +28,8 @@ datasets_map = {
     'flowers': flowers,
     'imagenet': imagenet,
     'mnist': mnist,
+    #add by Licon
+    'quiz': quiz,
 }
 
 
