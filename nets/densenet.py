@@ -58,9 +58,9 @@ def densenet(images, num_classes=1001, is_training=False,
     end_points = {}
 
     with tf.variable_scope(scope, 'DenseNet', [images, num_classes]):
-	with slim.arg_scope(bn_drp_scope(is_training=is_training,
+        with slim.arg_scope(bn_drp_scope(is_training=is_training,
                                          keep_prob=dropout_keep_prob)) as ssc:
-			scope = 'conv1'
+                        scope = 'conv1'
 			net = slim.conv2d(images, 2 * growth, [7, 7], stride=2, scope=scope)
 			end_points[scope] = net
 			#  -> 150 x 150 x 2g(growth)
