@@ -65,6 +65,7 @@ networks_map = {'alexnet_v2': alexnet.alexnet_v2,
                 'nasnet_mobile': nasnet.build_nasnet_mobile,
                 'nasnet_large': nasnet.build_nasnet_large,
                 'pnasnet_large': pnasnet.build_pnasnet_large,
+                'densenet':densenet.densenet
                }
 
 arg_scopes_map = {'alexnet_v2': alexnet.alexnet_v2_arg_scope,
