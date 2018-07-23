@@ -33,6 +33,7 @@ from nets import vgg
 from nets.mobilenet import mobilenet_v2
 from nets.nasnet import nasnet
 from nets.nasnet import pnasnet
+from nets import densenet
 
 slim = tf.contrib.slim
 
