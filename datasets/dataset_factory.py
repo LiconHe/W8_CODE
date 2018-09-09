@@ -29,7 +29,7 @@ datasets_map = {
     'flowers': flowers,
     'imagenet': imagenet,
     'mnist': mnist,
-    'Car_Detection': Car_Detection
+    'carclassfication': carclassfication
 }
 
 
